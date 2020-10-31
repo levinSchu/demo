@@ -1,11 +1,27 @@
 {
   "floors": [
-    { "id": 0, "name": "Ground Floor", "abbreviation": "F0" },
-    { "id": 1, "name": "First Floor", "abbreviation": "F1" },
-    { "id": 2, "name": "Second Floor", "abbreviation": "F2" },
+    {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
+    {"id":1, "name":"First Floor", "abbreviation":"F1"},
+    {"id":2, "name":"Second Floor", "abbreviation":"F2"},
   ],
   "rooms": [
-    { "id": 0, "name": "Outside", "deviceIds": [0, 1, 2] },
-    { "id": 1, "floor_id": 2, "name": "Living Room", "icon_id": 0, "deviceIds": [3, 4], "consumptionId": 1, "temperature": 23.5, "goal_temperature": 24, "lightOn": false, "hasWindows": false, "windowsClosed": false, "shuttersClosed": false },
+    {"id":0, "name":"Outside", 
+     "deviceIds":[0, 1, 2] },
+    {"id":1, "name":"Living Room", "currentTemperature":23.5, "goalTemperature":24, "lightsOn":true, "hasWindows":false, "windowsClosed":false,
+     "iconId":0, "consumptionId":1, "floorId":0, "deviceIds":[3, 4]},
+    {"id":2, "name":"Hall", "currentTemperature":23, "goalTemperature":24.5, "lightsOn":true, "hasWindows":true, "windowsClosed":true,
+     "iconId":1, "consumptionId":2, "floorId":0, "deviceIds":[]},
+    {"id":3, "name":"Kitchen", "currentTemperature":21, "goalTemperature":21, "lightsOn":false, "hasWindows":true, "windowsClosed":true,
+     "iconId":2, "consumptionId":3, "floorId":0, "deviceIds":[]},
+    {"id":4, "name":"Bed Room", "currentTemperature":25, "goalTemperature":21, "lightsOn":false, "hasWindows":true, "windowsClosed":true,
+     "iconId":3, "consumptionId":4, "floorId":1, "deviceIds":[5]},
+    {"id":5, "name":"Kids Room", "currentTemperature":25, "goalTemperature":23, "lightsOn":true, "hasWindows":true, "windowsClosed":false,
+     "iconId":4, "consumptionId":5, "floorId":1, "deviceIds":[]},
+    {"id":6, "name":"Bathroom", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":true, "windowsClosed":true,
+     "iconId":5, "consumptionId":6, "floorId":1, "deviceIds":[]},
+    {"id":7, "name":"Kids Room", "currentTemperature":24, "goalTemperature":23, "lightsOn":false, "hasWindows":true, "windowsClosed":false,
+     "iconId":4, "consumptionId":7, "floorId":2, "deviceIds":[]},
+    {"id":8, "name":"Bathroom", "currentTemperature":23, "goalTemperature":22, "lightsOn":false, "hasWindows":false, "windowsClosed":false,
+     "iconId":5, "consumptionId":8, "floorId":2, "deviceIds":[6, 7]},
   ]
 }
