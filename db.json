@@ -1,17 +1,11 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "floors": [
+    { "id": 0, "name": "Ground Floor", "abbreviation": "F0" },
+    { "id": 1, "name": "First Floor", "abbreviation": "F1" },
+    { "id": 2, "name": "Second Floor", "abbreviation": "F2" },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "rooms": [
-    { "name": "Room 1" }
+    { "id": 0, "name": "Outside", "deviceIds": [0, 1, 2] },
+    { "id": 1, "floor_id": 2, "name": "Living Room", "icon_id": 0, "deviceIds": [3, 4], "consumptionId": 1, "temperature": 23.5, "goal_temperature": 24, "lightOn": false, "hasWindows": false, "windowsClosed": false, "shuttersClosed": false },
   ]
 }
