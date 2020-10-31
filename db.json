@@ -10,5 +10,8 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "rooms": [
+    { "name": "Room 1", "shuttersClosed": True }
+  ]
 }
