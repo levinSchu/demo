@@ -2,7 +2,7 @@
   "floors": [
     {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
     {"id":1, "name":"First Floor", "abbreviation":"F1"},
-    {"id":2, "name":"Second Floor", "abbreviation":"F2"},
+    {"id":2, "name":"Second Floor", "abbreviation":"F2"}
   ],
   "rooms": [
     {"id":0, "name":"Outside"},
@@ -13,7 +13,7 @@
     {"id":5, "name":"Kids Room", "currentTemperature":25, "goalTemperature":23, "lightsOn":true, "hasWindows":true, "windowsClosed":false, "iconId":4},
     {"id":6, "name":"Bathroom", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconId":5},
     {"id":7, "name":"Kids Room", "currentTemperature":24, "goalTemperature":23, "lightsOn":false, "hasWindows":true, "windowsClosed":false, "iconId":4},
-    {"id":8, "name":"Bathroom", "currentTemperature":23, "goalTemperature":22, "lightsOn":false, "hasWindows":false, "windowsClosed":false, "iconId":5},
+    {"id":8, "name":"Bathroom", "currentTemperature":23, "goalTemperature":22, "lightsOn":false, "hasWindows":false, "windowsClosed":false, "iconId":5}
   ],
   "devices": [
     {"id":0, "name":"PhoneDad", "status":"Calling", "ip":"192.168.178.11", "hasBattery":true, "battery":50, 
@@ -29,6 +29,17 @@
     {"id":5, "name":"RoboVacuum", "status":"cleaning", "ip":"192.168.178.27", "hasBattery":true, "battery":40, 
      "description":"Cleans everything. Company: RoboVac"},
     {"id":6, "name":"PhoneKid", "status":"playing video", "ip":"192.168.178.30", "hasBattery":true, "battery":15, 
-     "description":"Kid's phone."},
+     "description":"Kid's phone."}
+  ],
+  "floor_rooms": [
+    {"floorId":0, "roomIds":[1,2,3]},
+    {"floorId":1, "roomIds":[4,5,6]},
+    {"floorId":2, "roomIds":[7,8]}
+  ],
+  "room_devices": [
+    {"roomId":0, "deviceIds":[0,1,2]},
+    {"roomId":1, "deviceIds":[3,4]},
+    {"roomId":5, "deviceIds":[5]},
+    {"roomId":7, "deviceIds":[6]}
   ]
 }
