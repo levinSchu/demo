@@ -1,5 +1,5 @@
 {
-  "house_model": {
+  "houseModel": {
     "floors": [
     {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
     {"id":1, "name":"First Floor", "abbreviation":"F1"},
@@ -32,12 +32,12 @@
       {"id":6, "name":"PhoneKid", "status":"playing video", "ip":"192.168.178.30", "hasBattery":true, "battery":15, 
        "description":"Kid's phone."}
     ],
-    "floor_rooms": [
+    "floorRooms": [
       {"floorId":0, "roomIds":[1,2,3]},
       {"floorId":1, "roomIds":[4,5,6]},
       {"floorId":2, "roomIds":[7,8]}
     ],
-    "room_devices": [
+    "roomDevices": [
       {"roomId":0, "deviceIds":[0,1,2]},
       {"roomId":1, "deviceIds":[3,4]},
       {"roomId":5, "deviceIds":[5]},
