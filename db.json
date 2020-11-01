@@ -1,5 +1,5 @@
 {
-  "house_data": {
+  "house_model": {
     "floors": [
     {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
     {"id":1, "name":"First Floor", "abbreviation":"F1"},
