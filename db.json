@@ -1,45 +1,47 @@
 {
-  "floors": [
+  "house_data": {
+    "floors": [
     {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
     {"id":1, "name":"First Floor", "abbreviation":"F1"},
     {"id":2, "name":"Second Floor", "abbreviation":"F2"}
-  ],
-  "rooms": [
-    {"id":0, "name":"Outside"},
-    {"id":1, "name":"Living Room", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":false, "windowsClosed":false, "iconId":0},
-    {"id":2, "name":"Hall", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconId":1},
-    {"id":3, "name":"Kitchen", "currentTemperature":21, "goalTemperature":21, "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconId":2},
-    {"id":4, "name":"Bed Room", "currentTemperature":25, "goalTemperature":21, "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconId":3},
-    {"id":5, "name":"Kids Room", "currentTemperature":25, "goalTemperature":23, "lightsOn":true, "hasWindows":true, "windowsClosed":false, "iconId":4},
-    {"id":6, "name":"Bathroom", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconId":5},
-    {"id":7, "name":"Kids Room", "currentTemperature":24, "goalTemperature":23, "lightsOn":false, "hasWindows":true, "windowsClosed":false, "iconId":4},
-    {"id":8, "name":"Bathroom", "currentTemperature":23, "goalTemperature":22, "lightsOn":false, "hasWindows":false, "windowsClosed":false, "iconId":5}
-  ],
-  "devices": [
-    {"id":0, "name":"PhoneDad", "status":"Calling", "ip":"192.168.178.11", "hasBattery":true, "battery":50, 
-     "description":"Dad's phone."},
-    {"id":1, "name":"PhoneMum", "status":"Idle", "ip":"192.168.178.12", "hasBattery":true, "battery":60, 
-     "description":"Mum's phone."},
-    {"id":2, "name":"CatTracker", "status":"tracking (low battery)", "ip":"192.168.178.13", "hasBattery":true, "battery":30, 
-     "description":"Tracks our little cat Percy."},
-    {"id":3, "name":"DishWasher3000", "status":"washing dishes", "ip":"192.168.178.16", "hasBattery":false, "battery":0, 
-     "description":"A DishWasher of the company Somsong. Washes Dishes in no time."},
-    {"id":4, "name":"Freezer-3000", "status":"freezing food (-18°)", "ip":"192.168.178.20", "hasBattery":false, "battery":0, 
-     "description":"Freezes everything from ice cream to neighbors."},
-    {"id":5, "name":"RoboVacuum", "status":"cleaning", "ip":"192.168.178.27", "hasBattery":true, "battery":40, 
-     "description":"Cleans everything. Company: RoboVac"},
-    {"id":6, "name":"PhoneKid", "status":"playing video", "ip":"192.168.178.30", "hasBattery":true, "battery":15, 
-     "description":"Kid's phone."}
-  ],
-  "floor_rooms": [
-    {"floorId":0, "roomIds":[1,2,3]},
-    {"floorId":1, "roomIds":[4,5,6]},
-    {"floorId":2, "roomIds":[7,8]}
-  ],
-  "room_devices": [
-    {"roomId":0, "deviceIds":[0,1,2]},
-    {"roomId":1, "deviceIds":[3,4]},
-    {"roomId":5, "deviceIds":[5]},
-    {"roomId":7, "deviceIds":[6]}
-  ]
+    ],
+    "rooms": [
+      {"id":0, "name":"Outside"},
+      {"id":1, "name":"Living Room", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":false, "windowsClosed":false, "iconId":0},
+      {"id":2, "name":"Hall", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconId":1},
+      {"id":3, "name":"Kitchen", "currentTemperature":21, "goalTemperature":21, "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconId":2},
+      {"id":4, "name":"Bed Room", "currentTemperature":25, "goalTemperature":21, "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconId":3},
+      {"id":5, "name":"Kids Room", "currentTemperature":25, "goalTemperature":23, "lightsOn":true, "hasWindows":true, "windowsClosed":false, "iconId":4},
+      {"id":6, "name":"Bathroom", "currentTemperature":23, "goalTemperature":24, "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconId":5},
+      {"id":7, "name":"Kids Room", "currentTemperature":24, "goalTemperature":23, "lightsOn":false, "hasWindows":true, "windowsClosed":false, "iconId":4},
+      {"id":8, "name":"Bathroom", "currentTemperature":23, "goalTemperature":22, "lightsOn":false, "hasWindows":false, "windowsClosed":false, "iconId":5}
+    ],
+    "devices": [
+      {"id":0, "name":"PhoneDad", "status":"Calling", "ip":"192.168.178.11", "hasBattery":true, "battery":50, 
+       "description":"Dad's phone."},
+      {"id":1, "name":"PhoneMum", "status":"Idle", "ip":"192.168.178.12", "hasBattery":true, "battery":60, 
+       "description":"Mum's phone."},
+      {"id":2, "name":"CatTracker", "status":"tracking (low battery)", "ip":"192.168.178.13", "hasBattery":true, "battery":30, 
+       "description":"Tracks our little cat Percy."},
+      {"id":3, "name":"DishWasher3000", "status":"washing dishes", "ip":"192.168.178.16", "hasBattery":false, "battery":0, 
+       "description":"A DishWasher of the company Somsong. Washes Dishes in no time."},
+      {"id":4, "name":"Freezer-3000", "status":"freezing food (-18°)", "ip":"192.168.178.20", "hasBattery":false, "battery":0, 
+       "description":"Freezes everything from ice cream to neighbors."},
+      {"id":5, "name":"RoboVacuum", "status":"cleaning", "ip":"192.168.178.27", "hasBattery":true, "battery":40, 
+       "description":"Cleans everything. Company: RoboVac"},
+      {"id":6, "name":"PhoneKid", "status":"playing video", "ip":"192.168.178.30", "hasBattery":true, "battery":15, 
+       "description":"Kid's phone."}
+    ],
+    "floor_rooms": [
+      {"floorId":0, "roomIds":[1,2,3]},
+      {"floorId":1, "roomIds":[4,5,6]},
+      {"floorId":2, "roomIds":[7,8]}
+    ],
+    "room_devices": [
+      {"roomId":0, "deviceIds":[0,1,2]},
+      {"roomId":1, "deviceIds":[3,4]},
+      {"roomId":5, "deviceIds":[5]},
+      {"roomId":7, "deviceIds":[6]}
+    ]
+  }
 }
