@@ -44,26 +44,29 @@
       {"roomId":7, "deviceIds":[6]}
     ],
     "weatherNow": {
-      "location":"Kassel", "timeDifference":"0", "sky_state":"1", "pressure":"1028hPa", "sunrise":"05:18AM", "sunset":"09:20PM", "temperature":"22°C", 
-      "windStrength":"10km\h", "windDirection":"Easterly", "humidity":"36%"
+      "location":"Kassel", "timeDifference":"0", "sky_state":"1", "pressure":"1028", "sunrise":"05:18AM", "sunset":"09:20PM", "temperature":"22", 
+      "windStrength":"10", "windDirection":"Easterly", "humidity":"36"
     },
     "weatherHourlyDifference": [
-      {"timeDifference":"1", "sky_state":"2", "temperature":"22°C"},
-      {"timeDifference":"2", "sky_state":"1", "temperature":"24°C"},
-      {"timeDifference":"3", "sky_state":"1", "temperature":"25°C"},
-      {"timeDifference":"4", "sky_state":"3", "temperature":"28°C"},
-      {"timeDifference":"5", "sky_state":"3", "temperature":"27°C"},
-      {"timeDifference":"6", "sky_state":"4", "temperature":"24°C"},
-      {"timeDifference":"7", "sky_state":"5", "temperature":"25°C"},
+      {"timeDifference":"1", "sky_state":"2", "temperature":"22"},
+      {"timeDifference":"2", "sky_state":"1", "temperature":"24"},
+      {"timeDifference":"3", "sky_state":"1", "temperature":"25"},
+      {"timeDifference":"4", "sky_state":"3", "temperature":"28"},
+      {"timeDifference":"5", "sky_state":"3", "temperature":"27"},
+      {"timeDifference":"6", "sky_state":"4", "temperature":"24"},
+      {"timeDifference":"7", "sky_state":"5", "temperature":"25"},
+      {"timeDifference":"8", "sky_state":"3", "temperature":"26"},
+      {"timeDifference":"9", "sky_state":"1", "temperature":"28"},
+      {"timeDifference":"10", "sky_state":"1", "temperature":"27"},
     ],
     "weatherDayDifference": [
-      {"timeDifference":"1", "sky_state":"1", "temperature":"25°C"},
-      {"timeDifference":"2", "sky_state":"2", "temperature":"18°C"},
-      {"timeDifference":"3", "sky_state":"5", "temperature":"20°C"},
-      {"timeDifference":"4", "sky_state":"3", "temperature":"23°C"},
-      {"timeDifference":"5", "sky_state":"2", "temperature":"21°C"},
-      {"timeDifference":"6", "sky_state":"2", "temperature":"19°C"},
-      {"timeDifference":"7", "sky_state":"3", "temperature":"18°C"},
+      {"timeDifference":"1", "sky_state":"1", "temperature":"25"},
+      {"timeDifference":"2", "sky_state":"2", "temperature":"18"},
+      {"timeDifference":"3", "sky_state":"5", "temperature":"20"},
+      {"timeDifference":"4", "sky_state":"3", "temperature":"23"},
+      {"timeDifference":"5", "sky_state":"2", "temperature":"21"},
+      {"timeDifference":"6", "sky_state":"2", "temperature":"19"},
+      {"timeDifference":"7", "sky_state":"3", "temperature":"18"},
     ]
   }
 }
