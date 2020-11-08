@@ -1,5 +1,5 @@
 {
-  "houseModel": {
+  "dataModel": {
     "floors": [
     {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
     {"id":1, "name":"First Floor", "abbreviation":"F1"},
@@ -67,6 +67,13 @@
       {"dayDifference":"5", "skyState":2, "temperature":"21"},
       {"dayDifference":"6", "skyState":2, "temperature":"19"},
       {"dayDifference":"7", "skyState":3, "temperature":"18"}
+    ],
+    "todos": [
+      {"dateTime":"2021-01-01 08:00:00.000", "title":"Breakfast at Tiffany's"},
+      {"dateTime":"2021-01-01 12:00:00.000", "title":"Brunch"},
+      {"dateTime":"2021-01-01 15:00:00.000", "title":"Meet Alice"},
+      {"dateTime":"2021-01-02 10:00:00.000", "title":"Shower"},
+      {"dateTime":"2021-01-02 15:00:00.000", "title":"Metting Tom"}
     ]
   }
 }
