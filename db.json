@@ -45,7 +45,7 @@
     ],
     "currentWeather": {
       "location":"Kassel", "timeDifference":"0", "sky_state":1, "pressure":"1028", "sunrise":"05:18AM", "sunset":"09:20PM", "temperature":"22", 
-      "windStrength":"10", "windDirection":"Easterly", "humidity":"36"
+      "windForce":"10", "windDirection":"Easterly", "humidity":"36"
     },
     "hourlyTimeTemperatures": [
       {"timeDifference":"1", "sky_state":2, "temperature":"22"},
