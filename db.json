@@ -48,25 +48,25 @@
       "windForce":"10", "windDirection":"Easterly", "humidity":"36"
     },
     "hourlyTimeTemperatures": [
-      {"timeDifference":1, "sky_state":2, "temperature":"22"},
-      {"timeDifference":2, "sky_state":1, "temperature":"24"},
-      {"timeDifference":3, "sky_state":1, "temperature":"25"},
-      {"timeDifference":4, "sky_state":3, "temperature":"28"},
-      {"timeDifference":5, "sky_state":3, "temperature":"27"},
-      {"timeDifference":6, "sky_state":4, "temperature":"24"},
-      {"timeDifference":7, "sky_state":5, "temperature":"25"},
-      {"timeDifference":8, "sky_state":3, "temperature":"26"},
-      {"timeDifference":9, "sky_state":1, "temperature":"28"},
-      {"timeDifference":10, "sky_state":1, "temperature":"27"}
+      {"hourDifference":1, "sky_state":2, "temperature":"22"},
+      {"hourDifference":2, "sky_state":1, "temperature":"24"},
+      {"hourDifference":3, "sky_state":1, "temperature":"25"},
+      {"hourDifference":4, "sky_state":3, "temperature":"28"},
+      {"hourDifference":5, "sky_state":3, "temperature":"27"},
+      {"hourDifference":6, "sky_state":4, "temperature":"24"},
+      {"hourDifference":7, "sky_state":5, "temperature":"25"},
+      {"hourDifference":8, "sky_state":3, "temperature":"26"},
+      {"hourDifference":9, "sky_state":1, "temperature":"28"},
+      {"hourDifference":10, "sky_state":1, "temperature":"27"}
     ],
     "dailyTimeTemperatures": [
-      {"timeDifference":1, "sky_state":1, "temperature":"25"},
-      {"timeDifference":2, "sky_state":2, "temperature":"18"},
-      {"timeDifference":3, "sky_state":5, "temperature":"20"},
-      {"timeDifference":4, "sky_state":3, "temperature":"23"},
-      {"timeDifference":5, "sky_state":2, "temperature":"21"},
-      {"timeDifference":6, "sky_state":2, "temperature":"19"},
-      {"timeDifference":7, "sky_state":3, "temperature":"18"}
+      {"dayDifference":1, "sky_state":1, "temperature":"25"},
+      {"dayDifference":2, "sky_state":2, "temperature":"18"},
+      {"dayDifference":3, "sky_state":5, "temperature":"20"},
+      {"dayDifference":4, "sky_state":3, "temperature":"23"},
+      {"dayDifference":5, "sky_state":2, "temperature":"21"},
+      {"dayDifference":6, "sky_state":2, "temperature":"19"},
+      {"dayDifference":7, "sky_state":3, "temperature":"18"}
     ]
   }
 }
