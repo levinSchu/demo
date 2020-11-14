@@ -76,13 +76,13 @@
       {"dateTime":"2021-01-02 15:00:00.000", "title":"Metting Tom"}
     ],
     "consumptions": [
-      {"consumptionId":0,"electricity": [
+      {"consumedItemId":0,"consumedItemName":"electricity","consumptions": [
         {"periodConsumption":100,"roomConsumptionPercent":{"1":40,"2":20,"3":15}},
         {"periodConsumption":750,"roomConsumptionPercent":{"1":35,"2":25,"3":15}},
         {"periodConsumption":4000,"roomConsumptionPercent":{"1":33,"2":24,"3":16}},
         {"periodConsumption":60000,"roomConsumptionPercent":{"1":33,"2":24,"3":16}}
       ]},
-      {"consumptionId":1,"water": [ 
+      {"consumedItemId":1,"consumedItemName":"water","consumptions": [ 
         {"periodConsumption":300,"roomConsumptionPercent":{"4":40,"3":20,"7":15}},
         {"periodConsumption":2500,"roomConsumptionPercent":{"4":35,"3":25,"7":15}},
         {"periodConsumption":13000,"roomConsumptionPercent":{"4":33,"3":24,"7":16}},
