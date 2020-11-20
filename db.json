@@ -76,8 +76,8 @@
       {"dateTime":"2021-01-02 15:00:00.000", "title":"Metting Tom"}
     ],
     "consumptions": [
-      {"consumedItemId":0,"consumedItemName":"electricity", "periods":["hourly", "daily"]},
-      {"consumedItemId":1,"consumedItemName":"water", "periods":["hourly", "daily"]}
+      {"consumedItemId":0,"consumedItemName":"electricity", "periods":["hourly", "daily"], "periodUnits":["Wh", "kWh"]},
+      {"consumedItemId":1,"consumedItemName":"water", "periods":["hourly", "daily"], "periodUnits":["litre", "litre"]}
     ]
   }
 }
