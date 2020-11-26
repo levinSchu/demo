@@ -80,10 +80,10 @@
       {"consumedItemId":1,"consumedItemName":"water", "periods":["hourly", "daily"], "periodUnits":["litre", "litre"]}
     ],
     "cameras": [
-      {"url": "https://media.giphy.com/media/13cA5MoP9Qas48/giphy.gif", "refresh"=0}, 
-      {"url": "http://185.10.80.33:8082/cgi-bin/guestimage.html", "refresh"=5}, 
-      {"url": "http://185.10.80.33:8082/cgi-bin/faststream.jpg?stream=full&fps=25&rand=41233.jpg", "refresh"=5}, 
-      {"url": "https://images.idgesg.net/images/article/2018/04/security_cameras_by_matthew_henry_cc0_via_unsplash_1200x800-100754670-large.jpg", "refresh"=0},
+      {"url": "https://media.giphy.com/media/13cA5MoP9Qas48/giphy.gif", "refresh":0}, 
+      {"url": "http://185.10.80.33:8082/cgi-bin/guestimage.html", "refresh":5}, 
+      {"url": "http://185.10.80.33:8082/cgi-bin/faststream.jpg?stream=full&fps=25&rand=41233.jpg", "refresh":5}, 
+      {"url": "https://images.idgesg.net/images/article/2018/04/security_cameras_by_matthew_henry_cc0_via_unsplash_1200x800-100754670-large.jpg", "refresh":0},
     ]
   }
 }
