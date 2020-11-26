@@ -1,9 +1,11 @@
 {
+  
   "dataModel": {
+    "profile": {"imgPath":"", "userName":"L", "colorValue":"0xffb71c1c"},
     "floors": [
-    {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
-    {"id":1, "name":"First Floor", "abbreviation":"F1"},
-    {"id":2, "name":"Second Floor", "abbreviation":"F2"}
+      {"id":0, "name":"Ground Floor", "abbreviation":"F0"},
+      {"id":1, "name":"First Floor", "abbreviation":"F1"},
+      {"id":2, "name":"Second Floor", "abbreviation":"F2"}
     ],
     "rooms": [
       {"id":0, "name":"Outside"},
