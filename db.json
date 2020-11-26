@@ -82,6 +82,8 @@
     "cameras": [
       {"url": "https://media.giphy.com/media/13cA5MoP9Qas48/giphy.gif", "refresh":0}, 
       {"url": "https://images.idgesg.net/images/article/2018/04/security_cameras_by_matthew_henry_cc0_via_unsplash_1200x800-100754670-large.jpg", "refresh":5}
+      {"url": "https://webcam1.lpl.org/axis-cgi/mjpg/video.cgi", "refresh":5}
+      
     ]
   }
 }
