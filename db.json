@@ -50,7 +50,7 @@
       {"roomId":7, "deviceIds":[6]}
     ],
     "currentWeather": {
-      "location":"Kassel", "timeDifference":"0", "sky_state":1, "pressure":"1028", "sunrise":"05:18AM", "sunset":"09:20PM", "temperature":"22", 
+      "location":"Kassel", "timeDifference":"0", "sky_state":1, "pressure":"1028", "sunrise":"2021-01-01 05:18:00.000", "sunset":"2021-01-01 09:20:00.000", "temperature":"22", 
       "windForce":"10", "windDirection":"Easterly", "humidity":"36"
     },
     "hourlyTimeTemperatures": [
