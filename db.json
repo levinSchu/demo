@@ -91,21 +91,21 @@
       {"url": "https://images.idgesg.net/images/article/2018/04/security_cameras_by_matthew_henry_cc0_via_unsplash_1200x800-100754670-large.jpg", "refresh":10}
     ],
     "notifications": [
-      {"dateTime":"2021-01-01 08:00:00.000", "message":"Timmy leaves home."},
-      {"dateTime":"2021-01-01 09:00:00.000", "message":"Timmy arrives at school."},
-      {"dateTime":"2021-01-01 15:00:00.000", "message":"Timmy leaves school."},
-      {"dateTime":"2021-01-01 16:00:00.000", "message":"Timmy arrives at home."},
-      {"dateTime":"2021-01-01 08:00:00.000", "message":"Dad goes jogging."},
-      {"dateTime":"2021-01-01 10:00:00.000", "message":"Dad arrives at home."},
-      {"dateTime":"2021-01-01 11:00:00.000", "message":"Mum leaves home."},
-      {"dateTime":"2021-01-01 11:30:00.000", "message":"Mum arrives at work."},
-      {"dateTime":"2021-01-01 19:15:00.000", "message":"Mum leaves work."},
-      {"dateTime":"2021-01-01 20:00:00.000", "message":"Mum arrives at home."},
-      {"dateTime":"2021-01-01 08:00:00.000", "message":"Watersprinklers turned on."},
-      {"dateTime":"2021-01-01 10:00:00.000", "message":"Watersprinklers turned off."},
-      {"dateTime":"2021-01-01 18:00:00.000", "message":"Watersprinklers turned on."},
-      {"dateTime":"2021-01-01 19:00:00.000", "message":"Watersprinklers turned off."},
-      {"dateTime":"2021-01-01 09:15:00.000", "message":"Security camera noticed unusual movements. Check footage!"}
+      {"dateTime":"2021-01-01 08:00:00.000", "status":"0", "message":"Timmy leaves home."},
+      {"dateTime":"2021-01-01 09:00:00.000", "status":"0", "message":"Timmy arrives at school."},
+      {"dateTime":"2021-01-01 15:00:00.000", "status":"0", "message":"Timmy leaves school."},
+      {"dateTime":"2021-01-01 16:00:00.000", "status":"0", "message":"Timmy arrives at home."},
+      {"dateTime":"2021-01-01 08:00:00.000", "status":"0", "message":"Dad goes jogging."},
+      {"dateTime":"2021-01-01 10:00:00.000", "status":"0", "message":"Dad arrives at home."},
+      {"dateTime":"2021-01-01 11:00:00.000", "status":"0", "message":"Mum leaves home."},
+      {"dateTime":"2021-01-01 11:30:00.000", "status":"0", "message":"Mum arrives at work."},
+      {"dateTime":"2021-01-01 19:15:00.000", "status":"0", "message":"Mum leaves work."},
+      {"dateTime":"2021-01-01 20:00:00.000", "status":"0", "message":"Mum arrives at home."},
+      {"dateTime":"2021-01-01 08:00:00.000", "status":"1", "message":"Watersprinklers turned on."},
+      {"dateTime":"2021-01-01 10:00:00.000", "status":"1", "message":"Watersprinklers turned off."},
+      {"dateTime":"2021-01-01 18:00:00.000", "status":"1", "message":"Watersprinklers turned on."},
+      {"dateTime":"2021-01-01 19:00:00.000", "status":"1", "message":"Watersprinklers turned off."},
+      {"dateTime":"2021-01-01 09:15:00.000", "status":"2", "message":"Security camera noticed unusual movements. Check footage!"}
     ]
   }
 }
