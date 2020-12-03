@@ -88,7 +88,8 @@
     ],
     "cameras": [
       {"url": "https://media.giphy.com/media/13cA5MoP9Qas48/giphy.gif", "refresh":0}, 
-      {"url": "https://images.idgesg.net/images/article/2018/04/security_cameras_by_matthew_henry_cc0_via_unsplash_1200x800-100754670-large.jpg", "refresh":10}
+      {"url": "https://images.idgesg.net/images/article/2018/04/security_cameras_by_matthew_henry_cc0_via_unsplash_1200x800-100754670-large.jpg", "refresh":10},
+      {"url": "https://www.avisec.ch/wp-content/uploads/webcam/q1615.jpg", "refresh":0}
     ],
     "notifications": [
       {"dateTime":"2021-01-01 08:00:00.000", "status":0, "message":"Timmy leaves home."},
