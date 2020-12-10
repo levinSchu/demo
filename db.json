@@ -85,7 +85,7 @@
     ],
     "consumptions": [
       {"consumedItemId":0,"consumedItemName":"electricity", "periods":["hourly", "daily"], "periodUnits":["Wh", "kWh"]},
-      {"consumedItemId":1,"consumedItemName":"water", "periods":["hourly", "daily"], "periodUnits":["litre", "litre"]}
+      {"consumedItemId":1,"consumedItemName":"water", "periods":["hourly", "daily", "weekly", "monthly"], "periodUnits":["litre", "litre", "litre", "litre"]}
     ],
     "cameras": [
       {"url": "https://media.giphy.com/media/13cA5MoP9Qas48/giphy.gif", "refresh":0}, 
