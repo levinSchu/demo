@@ -57,7 +57,7 @@
     "hourlyTimeTemperatures": [
       {"hourDifference":"1", "skyState":2, "temperature":"22"},
       {"hourDifference":"2", "skyState":1, "temperature":"24"},
-      {"hourDifference":"3", "skyState":1, "temperature":"25"},
+      {"hourDifference":"3", "skyState":0, "temperature":"25"},
       {"hourDifference":"4", "skyState":3, "temperature":"28"},
       {"hourDifference":"5", "skyState":3, "temperature":"27"},
       {"hourDifference":"6", "skyState":4, "temperature":"24"},
