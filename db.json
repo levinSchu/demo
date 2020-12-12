@@ -14,14 +14,14 @@
     ],
     "rooms": [
       {"id":0, "name":"Outside"},
-      {"id":1, "name":"Living Room", "currentTemperature":"23.5", "goalTemperature":"24.5", "lightsOn":true, "hasWindows":false, "windowsClosed":false, "iconId":0},
-      {"id":2, "name":"Hall", "currentTemperature":"23", "goalTemperature":"24", "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconId":1},
-      {"id":3, "name":"Kitchen", "currentTemperature":"21.5", "goalTemperature":"21", "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconId":2},
-      {"id":4, "name":"Bed Room", "currentTemperature":"25", "goalTemperature":"21.5", "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconId":3},
-      {"id":5, "name":"Kids Room", "currentTemperature":"25", "goalTemperature":"23", "lightsOn":true, "hasWindows":true, "windowsClosed":false, "iconId":4},
-      {"id":6, "name":"Bathroom", "currentTemperature":"23.5", "goalTemperature":"24.5", "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconId":5},
-      {"id":7, "name":"Kids Room", "currentTemperature":"24.5", "goalTemperature":"23", "lightsOn":false, "hasWindows":true, "windowsClosed":false, "iconId":4},
-      {"id":8, "name":"Bathroom", "currentTemperature":"23", "goalTemperature":"22.5", "lightsOn":false, "hasWindows":false, "windowsClosed":false, "iconId":5}
+      {"id":1, "name":"Living Room", "currentTemperature":"23.5", "goalTemperature":"24.5", "lightsOn":true, "hasWindows":false, "windowsClosed":false, "iconKey":"livingroom"},
+      {"id":2, "name":"Hall", "currentTemperature":"23", "goalTemperature":"24", "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconKey":"hall"},
+      {"id":3, "name":"Kitchen", "currentTemperature":"21.5", "goalTemperature":"21", "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconKey":"kitchen"},
+      {"id":4, "name":"Bed Room", "currentTemperature":"25", "goalTemperature":"21.5", "lightsOn":false, "hasWindows":true, "windowsClosed":true, "iconKey":"bedroom"},
+      {"id":5, "name":"Kids Room", "currentTemperature":"25", "goalTemperature":"23", "lightsOn":true, "hasWindows":true, "windowsClosed":false, "iconKey":"kidsroom"},
+      {"id":6, "name":"Bathroom", "currentTemperature":"23.5", "goalTemperature":"24.5", "lightsOn":true, "hasWindows":true, "windowsClosed":true, "iconKey":"bathroom"},
+      {"id":7, "name":"Kids Room", "currentTemperature":"24.5", "goalTemperature":"23", "lightsOn":false, "hasWindows":true, "windowsClosed":false, "iconKey":"kidsroom"},
+      {"id":8, "name":"Bathroom", "currentTemperature":"23", "goalTemperature":"22.5", "lightsOn":false, "hasWindows":false, "windowsClosed":false, "iconKey":"bathroom"}
     ],
     "devices": [
       {"id":0, "name":"PhoneDad", "status":"Calling", "ip":"192.168.178.11", "hasBattery":true, "battery":50, 
