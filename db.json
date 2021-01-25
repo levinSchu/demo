@@ -76,12 +76,12 @@
       {"dayDifference":"7", "skyState":3, "temperature":"18"}
     ],
     "todos": [
-      {"dateTime":"2021-01-01 08:00:00.000", "title":"Breakfast at Tiffanys'"},
-      {"dateTime":"2021-01-01 08:00:00.000", "title":"Make Breakfast for Kids"},
-      {"dateTime":"2021-01-01 12:00:00.000", "title":"Brunch"},
-      {"dateTime":"2021-01-01 15:00:00.000", "title":"Meet Alice"},
-      {"dateTime":"2021-01-02 10:00:00.000", "title":"Shower"},
-      {"dateTime":"2021-01-02 15:00:00.000", "title":"Metting Tom"}
+      {"dateTime":"2021-01-25 08:00:00.000", "title":"Breakfast at Tiffanys'"},
+      {"dateTime":"2021-01-25 08:00:00.000", "title":"Make Breakfast for Kids"},
+      {"dateTime":"2021-01-25 12:00:00.000", "title":"Brunch"},
+      {"dateTime":"2021-01-25 15:00:00.000", "title":"Meet Alice"},
+      {"dateTime":"2021-01-26 10:00:00.000", "title":"Shower"},
+      {"dateTime":"2021-01-26 15:00:00.000", "title":"Metting Tom"}
     ],
     "consumptions": [
       {"consumedItemId":0,"consumedItemName":"electricity", "periods":["hourly", "daily"], "periodUnits":["Wh", "kWh"]},
@@ -93,21 +93,21 @@
       {"url": "https://www.avisec.ch/wp-content/uploads/webcam/q1615.jpg", "refresh":0}
     ],
     "notifications": [
-      {"dateTime":"2021-01-01 08:00:00.000", "status":0, "message":"Timmy leaves home."},
-      {"dateTime":"2021-01-01 09:00:00.000", "status":0, "message":"Timmy arrives at school."},
-      {"dateTime":"2021-01-01 15:00:00.000", "status":0, "message":"Timmy leaves school."},
-      {"dateTime":"2021-01-01 16:00:00.000", "status":0, "message":"Timmy arrives at home."},
-      {"dateTime":"2021-01-01 08:00:00.000", "status":0, "message":"Dad goes jogging."},
-      {"dateTime":"2021-01-01 10:00:00.000", "status":0, "message":"Dad arrives at home."},
-      {"dateTime":"2021-01-01 11:00:00.000", "status":0, "message":"Mum leaves home."},
-      {"dateTime":"2021-01-01 11:30:00.000", "status":0, "message":"Mum arrives at work."},
-      {"dateTime":"2021-01-01 19:15:00.000", "status":0, "message":"Mum leaves work."},
-      {"dateTime":"2021-01-01 20:00:00.000", "status":0, "message":"Mum arrives at home."},
-      {"dateTime":"2021-01-01 08:00:00.000", "status":1, "message":"Watersprinklers turned on."},
-      {"dateTime":"2021-01-01 10:00:00.000", "status":1, "message":"Watersprinklers turned off."},
-      {"dateTime":"2021-01-01 18:00:00.000", "status":1, "message":"Watersprinklers turned on."},
-      {"dateTime":"2021-01-01 19:00:00.000", "status":1, "message":"Watersprinklers turned off."},
-      {"dateTime":"2021-01-01 09:15:00.000", "status":2, "message":"Security camera noticed unusual movements. Check footage!"}
+      {"dateTime":"2021-01-22 08:00:00.000", "status":0, "message":"Timmy leaves home."},
+      {"dateTime":"2021-01-23 09:00:00.000", "status":0, "message":"Timmy arrives at school."},
+      {"dateTime":"2021-01-22 15:00:00.000", "status":0, "message":"Timmy leaves school."},
+      {"dateTime":"2021-01-23 16:00:00.000", "status":0, "message":"Timmy arrives at home."},
+      {"dateTime":"2021-01-23 08:00:00.000", "status":0, "message":"Dad goes jogging."},
+      {"dateTime":"2021-01-24 10:00:00.000", "status":0, "message":"Dad arrives at home."},
+      {"dateTime":"2021-01-23 11:00:00.000", "status":0, "message":"Mum leaves home."},
+      {"dateTime":"2021-01-25 11:30:00.000", "status":0, "message":"Mum arrives at work."},
+      {"dateTime":"2021-01-23 19:15:00.000", "status":0, "message":"Mum leaves work."},
+      {"dateTime":"2021-01-23 20:00:00.000", "status":0, "message":"Mum arrives at home."},
+      {"dateTime":"2021-01-24 08:00:00.000", "status":1, "message":"Watersprinklers turned on."},
+      {"dateTime":"2021-01-22 10:00:00.000", "status":1, "message":"Watersprinklers turned off."},
+      {"dateTime":"2021-01-23 18:00:00.000", "status":1, "message":"Watersprinklers turned on."},
+      {"dateTime":"2021-01-24 19:00:00.000", "status":1, "message":"Watersprinklers turned off."},
+      {"dateTime":"2021-01-25 09:15:00.000", "status":2, "message":"Security camera noticed unusual movements. Check footage!"}
     ]
   }
 }
